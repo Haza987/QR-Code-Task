@@ -1,0 +1,29 @@
+.card{
+  padding: var(--spacing-500);
+  border-radius: 1rem;
+  background-color: var(--white);
+  width: 320px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h1{
+    padding-block: 1rem;
+  }
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .img{
+    width: 288px;
+    height: 288px;
+    border-radius: 1rem;
+  }
+}
+
